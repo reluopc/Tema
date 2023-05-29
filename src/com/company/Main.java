@@ -1,6 +1,8 @@
 package com.company;
 
 import java.sql.SQLOutput;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
 
@@ -8,9 +10,204 @@ public class Main {
 
 
 
+                      ///////////////// Tema  PPT  ///////////////////
 
 
-                     /////////////////    Tema   /////////////////////////////
+        //PPT.Page 51
+        // Exemplul 1.
+
+        // Exemplu 1.
+
+//        Integer [] array={2,4,6,8};
+//        boolean b= Arrays.asList(array).contains(3);
+//        System.out.println(b);
+
+
+        // Exemplul 2.
+
+//        String[ ] array = {"a","b","c","d"};
+//        boolean b = Arrays.asList(array).contains("d");
+//        System.out.println(b);
+
+
+
+                            // Exercitii
+
+        //1.
+        // Maxim se va afisa 17
+//        int[] sir={1, 5, 2, 8, 9, 14, 3, 4, 17, 10, 11};
+//        int maxim =0;
+//        int sir2=17;
+//
+//
+//
+//
+//
+//        for(int i=0; i<sir.length; i=i+1);
+//
+//        if(sir[0]>maxim);
+//        System.out.println(" Maximul este "+ sir2);
+
+
+
+
+            //2
+//        // Verificam dacă un numar se afla în intervalul [5,10].
+//
+//        int nr1=4;
+//        if(nr1>=5 && nr1<=10){
+//            System.out.println("Numarul"+nr1+"se afla in intervalul[5,10]");
+//        }else{
+//            System.out.println("Numarul "+ nr1 +" Nu se afla in intervalul [5,10]");
+//        }
+
+
+
+
+
+            //3
+//       Verificam daca un numar este par sau impar
+//
+//
+//        int a1=2;
+//        int a2=3;
+//
+//        if (a1>3) {
+//            System.out.println(a1 + " este numar par");
+//        } else {
+//            System.out.println(a2 + " este numar impar");
+//        }
+
+
+
+
+        //4.
+        //Afiseaza fiecare litera a unui string pe rand nou utilizand structura repetitiva while
+
+//        int i = 1;
+//        while (i < 2) {
+//            System.out.println("A");
+//            System.out.println("B");
+//            System.out.println("C");
+//            System.out.println("D");
+//            System.out.println("E");
+//            System.out.println("F");
+//
+//            i++;
+
+
+
+
+
+
+        //5. Page power Point 58.
+        // Daca se da sirul
+
+//        int[] sir = {1, 2, 3, 4, 5};
+//        for (int i = 0; i < sir.length; i++) {
+//            System.out.print(sir[i]+" ");
+
+        // .............. Trebuie rezolvat....................
+
+
+
+
+
+
+        // Exercitiul 1   Page 59
+        //Se da String-ul „Maria merge cu bicicleta”. Sa se afiseze caracterul de pe pozitia 7.
+
+//        String maria = "Maria merge cu bicicleta";
+//        System.out.println(maria.charAt(6));
+
+
+
+
+        //Exercitiul 2  Page 59
+        //Se da String-ul „Azi este o zi minunata”. Sa se inlocuiasca toate aparitiile caracterului „z” cu „t”.
+//        String Az = "Azi este o zi minunata";
+//        System.out.println(Az.replace("z","t"));
+
+
+
+        //Exercitiul 3. Page 59
+        //3. Se da String-ul „Mere”. Sa se inlocuiasca prima aparitie a caracterului „e” cu „a”.
+//        String Az2= "Mere";
+//        System.out.println("Mere".replaceFirst("e", "a"));
+
+
+
+        //Exercitiul 4. Page 59
+        //Se da String-ul „236524”. Sa se afiseze substring-ul „65”.
+
+//        String az3 = "236524";
+//        String substring = az3.substring(2, 4);
+//        System.out.println(substring);
+
+
+        //Exercitiul 5. Page 60
+        //Sa se afiseze sirul 100, 98, 96 , … , 2, 0.
+
+
+
+
+
+
+        //Exercitiul 6. Page 60
+        //Sa se declare tabloul de String-uri {„mere” , „pere” , „visine” , „portocale”}
+        // Sa se afiseze elementele tabloului cu spatii intre ele.
+
+//        String[]fructe={"mere","pere","visine","portocale"};
+//        for(int fru=0; fru<fructe.length; fru++){
+//            System.out.print(fructe[fru]+ " ");
+//        }
+
+
+
+
+        //Exercitiul 7. Page 60
+        //Sa se afiseze toate numerele pare de la 1 pana la 100 cu virgula intre ele
+
+//        StringBuilder a1 = new StringBuilder();
+//        StringBuilder a2= new StringBuilder();
+//
+//        for(int i=2; i<=100; i+=2) {
+//            a1.append(i).append(" ,");
+//            System.out.println();
+//            a2.append(i).append("  ");
+//        }
+//        a1.deleteCharAt(a1.length()-1);
+//
+//        //Afiseaza numerele pare de la 2-100
+//        System.out.println(a1.toString());
+//
+//        //in rand se afiseaza numarul acestora
+//        System.out.println(a2.toString());
+
+
+
+
+        //Exercitiul 8. Page 60
+        //Se da un numar N. Determinati si afisati valoarea sumei S=1+2+3+…+N
+
+
+//        Scanner scanner =new Scanner(System.in);
+//        System.out.print(" Numarul este 5: ");
+//        int N =scanner.nextInt();
+//
+//        int suma=0;
+//        for (int i=1; i<=N; i++){
+//            suma+=1;
+//        }
+//        System.out.println();
+
+
+
+
+
+
+
+        /////////////////    Tema w3resource /////////////////////////////
 
 
         //Syntax
@@ -352,7 +549,7 @@ public class Main {
 
 
         //15
-        
+
 
 
 
